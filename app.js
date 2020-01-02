@@ -25,7 +25,7 @@ router.get("/",async ctx => {
 })
 
 //引入mongoURI
-const db = require("./config/keys").mongoURI
+const db = require("./config/keys").mongoURI;
 
 //连接数据库
 // mongoose.connect("mongodb+srv://deadmau5:<password>@cluster1-kejqo.mongodb.net/test")
